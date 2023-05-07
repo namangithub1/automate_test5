@@ -4,7 +4,7 @@
     "capabilities": {
         "bstack:options": {
             "projectName": "Pytest Browserstack - 1",
-            "buildName": "Test 5 and 6: browserstack-build-8",
+            "buildName": "Test 5 and 6: browserstack-build-review",
             "sessionName": "BStack sample pytest",
             "local": false,
             "debug": "true",
