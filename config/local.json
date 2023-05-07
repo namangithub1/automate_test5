@@ -1,0 +1,40 @@
+{
+    "user": "namanchaturvedi_Vgda75",
+    "key": "aUxaiQxgbXSRq4ywFNJQ",
+    "capabilities": {
+        "bstack:options": {
+            "projectName": "Pytest Browserstack",
+            "buildName": "browserstack-build-1",
+            "sessionName": "BStack local pytest",
+            "local": true,
+            "debug": "true",
+            "networkLogs": "true"
+        }
+    },
+    "environments": [
+        {
+            "bstack:options": {
+                "os": "Windows",
+                "osVersion": "11"
+            },
+            "browserName": "chrome",
+            "browserVersion": "latest"
+        },
+        {
+            "bstack:options": {
+                "os": "Windows",
+                "osVersion": "11"
+            },
+            "browserName": "firefox",
+            "browserVersion": "latest"
+        },
+        {
+            "bstack:options": {
+                "os" : "OS X",
+                "osVersion" : "Ventura"
+            },
+            "browserName": "Safari",
+            "browserVersion": "latest"
+        }
+    ]
+}
